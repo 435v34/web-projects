@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <link href="styles/style.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>My test page</title>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="top-panel">
+        <div class="location">
+          <img src="images/location-mark.svg" alt="иконка позиции" >
+          <span class="city-location">Москва</span>
+        </div>
+        <div class="contact">
+          <span class="phone-number">8 800 550 83 13</span>
+          <span class="order-phonecall">Заказать звонок</span>
+        </div>
+        <div class="sign-and-login">
+          <span>Вход и регистрация</span>
+        </div>
+      </div>
+      <div class="header">
+        <div class="logo">
+          <img src="images/advantshop.svg" alt="ADVANTSHOP" />
+        </div>
+        <div class="search-bar">
+          <img src="images/2.svg" alt="magnifier" />
+          <span>Поиск по товарам</span>
+        </div>
+        <div class="icons">
+          <div class="count">
+              <img src="images/Ellipse 24.svg" alt="eclipse" />
+              <span>2</span>
+          </div>
+          <img src="images/3.png" alt="favorite" />
+          <img src="images/сравнение.svg" alt="comparison" />
+          <div id="basket"><img src="images/корзина 2.svg" alt="basket" />
+            <a href="file:///C:/Users/79194/Documents/VS/web-projects/test-site/cart.html">Корзина</a>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="catalogue-button">
+            <div class="catalogue-button-grid">
+              <img src="images/бургер.svg" alt="список" />
+              <span>Каталог товаров</span>
+            </div>
+        </div>
+        <div class="navigation1-buttons">
+          <div class="navigation1-buttons-grid">
+            <div class="navigation1-buttons-grid-item">
+              <span>О магазине</span>
+              <img src="images/выпадайка-низ.svg" alt="стрелка" />
+              <div class="navigation1-buttons-grid-item-hidden">
+                <span class="navigation1-buttons-grid-item-hidden-item">Возможности</span>
+                <span class="navigation1-buttons-grid-item-hidden-item">Цены</span>
+                <span class="navigation1-buttons-grid-item-hidden-item">Партнеры</span>
+                <span class="navigation1-buttons-grid-item-hidden-item">Шаблоны</span>
+                <span class="navigation1-buttons-grid-item-hidden-item">Модули</span>
+                <span class="navigation1-buttons-grid-item-hidden-item">Услуги</span>
+                <span class="navigation1-buttons-grid-item-hidden-item">Интеграции</span>
+              </div>
+            </div>
+            <div class="navigation1-buttons-grid-item">
+              <span>Скидки</span>
+            </div>             
+            <div class="navigation1-buttons-grid-item">
+              <span>Доставка и оплата</span>
+            </div>
+            <div class="navigation1-buttons-grid-item">
+              <span>Услуги</span>
+            </div>
+            <div class="navigation1-buttons-grid-item">
+              <span>Акции</span>
+            </div>
+            <div class="navigation1-buttons-grid-item">
+              <span>Блог</span>
+            </div>
+            <div class="navigation1-buttons-grid-item">
+              <span>Контакты</span>
+            </div>  
+        </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="aside">
+          <div class="catalogue-column">
+            <div class="catalogue-column-item">
+              <span>Одежда</span>
+              <img src="images/выпадайка-право.svg" alt="выпадайка-право" />
+            </div>
+            <div class="catalogue-column-item">
+              <span>Мебель</span>
+              <img src="images/выпадайка-право.svg" alt="выпадайка-право" />
+            </div>
+            <div class="catalogue-column-item">
+              <span>Бытовая техника</span>
+              <img src="images/выпадайка-право.svg" alt="выпадайка-право" />
+            </div>
+            <div class="catalogue-column-item">
+              <span>Спортивные товары</span>
+              <img src="images/выпадайка-право.svg" alt="выпадайка-право" />
+            </div>
+            <div class="catalogue-column-item">
+              <span>Косметика</span>
+              <img src="images/выпадайка-право.svg" alt="выпадайка-право" />
+            </div>
+            <div class="catalogue-column-item">
+              <span>садовая техника</span>
+              <img src="images/выпадайка-право.svg" alt="выпадайка-право" />
+            </div>
+            <div class="catalogue-column-item">
+              <span>Сантехника</span>
+              <img src="images/выпадайка-право.svg" alt="выпадайка-право" />
+            </div>
+            <div class="catalogue-column-item">
+              <span>Строительные материалы</span>
+              <img src="images/выпадайка-право.svg" alt="выпадайка-право" />
+            </div>
+            <div class="catalogue-column-item">
+              <span>Автотехника</span>
+              <img src="images/выпадайка-право.svg" alt="выпадайка-право" />
+            </div>
+            <div class="catalogue-column-item">
+              <span>Еда</span>
+              <img src="images/выпадайка-право.svg" alt="выпадайка-право" />
+            </div>
+            <div class="catalogue-column-item">
+              <span>Разработка сайтов</span>
+              <img src="images/выпадайка-право.svg" alt="выпадайка-право" />
+            </div>
+           
+            
+          </div>
+          <div class="articles-aside">
+            <div class="articles-aside-item">
+              <span>Статьи</span>
+            </div>
+            <div class="articles-aside-item">
+              <span>Меган Фокс в апрельском номере журнала Jealose</span>
+    
+              <span class="aticles-aside-items-date">03 апреля 2015</span>
+            </div>
+            <div class="articles-aside-item">
+              <span>Состоялся показ Armani Prive на неделе высокой моды в Париже</span>
+          
+              <span class="aticles-aside-items-date">11 марта 2015</span>
+            </div>
+            <div class="articles-aside-item">
+              <span>Облачные перспективы Windows-8</span>
+            
+              <span class="aticles-aside-items-date">11 февраля 2015</span>
+            </div>
+            <div class="articles-aside-item">
+              <span>Все новости</span>
+            </div>
+            
+          </div>
+          <div class="order-status">
+            <div class="order-status-title">
+              <span>Проверить статус заказа</span>
+            </div>
+            <div class="order-status-bar">
+              <span>Введите номер заказа</span>
+            </div>
+            <div class="order-status-button">
+              <span>Проверить</span>
+            </div>
+          </div>
+           <div class="survey">
+            <div class="survey-title">
+              <span class="survey-title-main">Опрос</span>
+              <span class="survey-title-subtitle">Как вам новый дизайн?</span>
+            </div>
+            <div class="survey-items">
+              <div class="survey-item">
+                <img src="images/off.svg" alt="survey-curcle" />
+                <span>Очень удобно</span>
+              </div>
+              <div class="survey-item">
+                <img src="images/off.svg" alt="survey-curcle" />
+                <span>Не пользуюсь, хватает одной темы</span>
+              </div>
+              <div class="survey-item">
+                <img src="images/off.svg" alt="survey-curcle" />
+                <span>Что такое трансформер?</span>
+              </div> 
+            </div>
+            <div class="survey-button">
+              <span>Голосовать</span>
+            </div>
+           </div>
+           <div class="VK">
+            <img src="images/image 4.png" alt="VK" />
+           </div>
+        </div>
+        <div class="main-content">
+            <div class="ad-slider">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="swiper-slide-container">
+                      <div class="swiper-slide-container-image"><img src="images/Rectangle 22.png"></div>
+                      <div class="swiper-slide-container-text">
+                        <span class="swiper-slide-container-text-title">Ноутбуки, планшеты
+                          и компьютеры</span>
+                        <span class="swiper-slide-container-text-subtitle">Верные помощники для удаленки!</span>
+                        <span class="swiper-slide-container-text-button">Посмотреть каталог</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-slide-container">
+                      <div class="swiper-slide-container-image"><img src="images/marc-pell-2cP5o3lg2pE-unsplash 1.png"></div>
+                      <div class="swiper-slide-container-text">
+                        <span class="swiper-slide-container-text-title">Товары для вашего 
+                          любимца</span>
+                        <span class="swiper-slide-container-text-subtitle">По доступным ценам</span>
+                        <span class="swiper-slide-container-text-button">Посмотреть каталог</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-slide-container">
+                      <div class="swiper-slide-container-image"><img src="images/Runway 2023-12-27T10_06_03.775Z Expand Image.jpg"></div>
+                      <div class="swiper-slide-container-text">
+                        <span class="swiper-slide-container-text-title">Модный  интернет 
+                          магазин</span>
+                        <span class="swiper-slide-container-text-subtitle">Одежды, обуви и  аксессуаров</span>
+                        <span class="swiper-slide-container-text-button">Посмотреть каталог</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-slide-container">
+                      <div class="swiper-slide-container-image"><img src="images/phone-3.jpg"></div>
+                      <div class="swiper-slide-container-text">
+                        <span class="swiper-slide-container-text-title">Берите выше. iPhone 11</span>
+                        <span class="swiper-slide-container-text-subtitle">Дополнительная выгода 6 000 рублей </span>
+                        <span class="swiper-slide-container-text-button">Посмотреть каталог</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination-my"></div>
+              </div>
+              <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+              <script>
+                var swiper = new Swiper(".mySwiper", {
+                  spaceBetween: 30,
+                  centeredSlides: true,
+                  autoplay: {
+                    delay: 4500,
+                    disableOnInteraction: false,
+                  },
+                  pagination: {
+                    el: ".swiper-pagination-my",
+                    clickable: true,
+                  },
+                });
+              </script>
+              <div class="qualities">
+                <div class="qualities-item">
+                  <img src="images/%.svg" alt="qualities-icon" />
+                  <span>Акции и скидки для постоянных клиентов</span>
+                </div>
+                <div class="qualities-item">
+                  <img src="images/Star Icon.svg" alt="qualities-icon" />
+                  <span>Качественные услуги и сервис</span>
+                </div>
+                <div class="qualities-item">
+                  <img src="images/Vector.svg" alt="qualities-icon" />
+                  <span>Широкий ассортимент товаров</span>
+                </div>
+              </div>
+            
+            </div>
+            <div class="popular-categories">
+                <div class="popular-categories-title">
+                  <span>Популярные категории</span>
+                </div>
+                <div class="popular-categories-items">
+                  <div class="popular-categories-item">
+                    <img src="images/image 13.png" alt="одежда" />
+                  <span>Одежда</span>
+                  </div>
+                  <div class="popular-categories-item">
+                    <img src="images/image 12.png" alt="мебель" />
+                    <span>Мебель</span>
+                  </div>
+                  <div class="popular-categories-item">
+                    <img src="images/image 14.png" alt="бытовая техника" />
+                    <span>Бытовая техника</span>
+                  </div>
+                  <div class="popular-categories-item">
+                    <img src="images/image 11.png" alt="Спортивные товары" />
+                    <span>Спортивные товары</span>
+                  </div>
+                  <div class="popular-categories-item">
+                    <img src="images/6002171190 2.png" alt="Косметика" />
+                    <span>Косметика</span>
+                  </div>
+                  <div class="popular-categories-item">
+                    <img src="images/image 15.png" alt="Садовая техника" />
+                    <span>Садовая техника</span>
+                  </div>
+                </div>
+            </div>
+            <div class="products-section">
+              <div class="products-section-title">
+                <span class="products-section-title-title">Новинки</span>
+                <span class="products-section-title-href">посмотреть все новинки</span>
+              </div>
+              <div class="products">
+                <div class="product">
+                  <div class="item-photos">
+                    <img src="images/image 18.png" alt="item-photo">
+                  </div> 
+                  <div class="item-photo-buttons">
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                  </div>
+                  <div class="item-information">
+                    <div class="item-information-1">
+                      <span class="product-item-name">Прогулочная коляска Valco Baby Snap 4</span>
+                      <img src="images/S.svg" alt="item-rating"> 
+                    </div>
+                    <div class="item-information-2">
+                      <span class="item-stock">В наличии</span>
+                      <div class="item-price">
+                        <span>16 790 руб.</span>
+                        <div class="in-basket">
+                          <img src="images/корзина 2.svg" alt="basket">
+                          <span>В корзину</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product">
+                  <div class="item-photos">
+                    <img src="images/image 19.png" alt="item-photo">
+                  </div> 
+                  <div class="item-photo-buttons">
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                  </div>
+                  <div class="item-information">
+                    <div class="item-information-1">
+                      <span class="product-item-name">Смартфон Xiaomi Mi 9 Lite 6/128GB</span>
+                      <img src="images/S.svg" alt="item-rating"> 
+                    </div>
+                    <div class="item-information-2">
+                      <span class="item-stock">В наличии</span>
+                      <div class="item-price">
+                        <span>23 600 руб.</span>
+                        <div class="in-basket">
+                          <img src="images/корзина 2.svg" alt="basket">
+                          <span>В корзину</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product">
+                  <div class="item-photos">
+                    <img src="images/image 20.png" alt="item-photo">
+                  </div> 
+                  <div class="item-photo-buttons">
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                  </div>
+                  <div class="item-information">
+                    <div class="item-information-1">
+                      <span class="product-item-name">Моноблок 27" Apple iMac Pro</span>
+                      <img src="images/S.svg" alt="item-rating"> 
+                    </div>
+                    <div class="item-information-2">
+                      <span class="item-stock">В наличии</span>
+                      <div class="item-price">
+                        <span>426 000 руб.</span>
+                        <div class="in-basket">
+                          <img src="images/корзина 2.svg" alt="basket">
+                          <span>В корзину</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <img class="products-section-in-navigation-background-back" src="images/Ellipse 9.svg" alt="Ellipse">
+                <img class="products-section-in-navigation-background-forward" src="images/Ellipse 9.svg" alt="Ellipse">
+                <img class="products-section-in-navigation-back-arrow" src="images/стрелка.svg" alt="Arrow-back">
+                <img class="products-section-in-navigation-forward-arrow" src="images/стрелка-forward.svg" alt="arrow-forward">
+              </div>
+              
+            </div>
+            <div class="products-section">
+              <div class="products-section-title">
+                <span class="products-section-title-title">Хиты продаж</span>
+                <span class="products-section-title-href">посмотреть все хиты продаж</span>
+              </div>
+              <div class="products">
+                <div class="product">
+                  <div class="item-photos">
+                    <img src="images/image 21.png" alt="item-photo">
+                  </div> 
+                  <div class="item-photo-buttons">
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                  </div>
+                  <div class="item-information">
+                    <div class="item-information-1">
+                      <span class="product-item-name">Краски для сухих помещений</span>
+                      <img src="images/S.svg" alt="item-rating"> 
+                    </div>
+                    <div class="item-information-2">
+                      <span class="item-stock">В наличии</span>
+                      <div class="item-price">
+                        <span>16 790 руб.</span>
+                        <div class="in-basket">
+                          <img src="images/корзина 2.svg" alt="basket">
+                          <span>В корзину</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product">
+                  <div class="item-photos">
+                    <img src="images/image 22.png" alt="item-photo">
+                  </div> 
+                  <div class="item-photo-buttons">
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                  </div>
+                  <div class="item-information">
+                    <div class="item-information-1">
+                      <span class="product-item-name">Блуза Concepti Mi 9 
+                        Lite 6/128GB</span>
+                      <img src="images/S.svg" alt="item-rating"> 
+                    </div>
+                    <div class="item-information-2">
+                      <span class="item-stock">В наличии</span>
+                      <div class="item-price">
+                        <span>23 600 руб.</span>
+                        <div class="in-basket">
+                          <img src="images/корзина 2.svg" alt="basket">
+                          <span>В корзину</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product">
+                  <div class="item-photos">
+                    <img src="images/image 23.png" alt="item-photo">
+                  </div> 
+                  <div class="item-photo-buttons">
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                    <div class="item-photo-button"></div>
+                  </div>
+                  <div class="item-information">
+                    <div class="item-information-1">
+                      <span class="product-item-name">Диван Лени Textile 
+                        Rustic</span>
+                      <img src="images/S.svg" alt="item-rating"> 
+                    </div>
+                    <div class="item-information-2">
+                      <span class="item-stock">В наличии</span>
+                      <div class="item-price">
+                        <span>426 000 руб.</span>
+                        <div class="in-basket">
+                          <img src="images/корзина 2.svg" alt="basket">
+                          <span>В корзину</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <img class="products-section-in-navigation-background-back" src="images/Ellipse 9.svg" alt="Ellipse">
+                <img class="products-section-in-navigation-background-forward" src="images/Ellipse 9.svg" alt="Ellipse">
+                <img class="products-section-in-navigation-back-arrow" src="images/стрелка.svg" alt="Arrow-back">
+                <img class="products-section-in-navigation-forward-arrow" src="images/стрелка-forward.svg" alt="arrow-forward">
+              </div>
+              <div class="products-section-navigation-section">
+                <div class="products-section-navigation-section-navigation">
+                  <div class="products-section-navigation-section-navigation-button-unactive">
+                    <img src="images/arrow-fade.svg" alt="arrow-fade">
+                  </div>
+                  <div class="products-section-navigation-section-navigation-button-unactive">
+                    <span>1</span>
+                  </div>
+                  <div class="products-section-navigation-section-navigation-button">
+                    <span>2</span>
+                  </div>
+                  <div class="products-section-navigation-section-navigation-button">
+                    <span>3</span>
+                  </div>
+                  <div class="products-section-navigation-section-navigation-button">
+                    <img src="images/стрелка-forward.svg" alt="arrow-forward">
+                  </div>
+                </div>
+                <div class="products-section-navigation-section-more">
+                  <span class="products-section-navigation-section-more-total">
+                    Вы посмотрели 24 из 1045 товаров
+                  </span>
+                  <span class="products-section-navigation-section-more-more">
+                    Показать еще
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="articles-ad">
+              <div class="articles-ad-text">
+                <span class="articles-ad-text-title">
+                  INTEC:Universe LITE - интернет-магазин с конструктором дизайна на редакции 1C-Битрикс «СТАРТ»
+                </span>
+                <span class="articles-ad-text-text">
+                  INTEC.UniverseLite - первый конструктор интернет-магазинов на редакции «СТАРТ» 1C-Битрикс. Решение идеально подойдет для быстрого запуска современного и многофункционального интернет-магазина на редакции «СТАРТ», без лишних расходов и привлечения сторонних специалистов. INTEC.UniverseLite может легко трансформироваться в отраслевое решение любой сферы бизнеса
+                  <br>
+                  <br>
+                  <span class="articles-ad-text-text-more">
+                    Подробнее
+                  </span>
+                </span>
+              </div>
+              <div class="articles-ad-image">
+                <img src="images/image 17.png" alt="articles-ad-image">
+              </div>
+            </div>
+            <div class="articles-main-main">
+              <span class="articles-main-main-title">
+                Статьи
+              </span>
+              <div class="articles-main-main-content">
+                <div class="articles-main-main-content-item">
+                  <img class="articles-main-main-content-item-picture" src="images/image 16.png" alt="book">
+                  <span class="articles-main-main-content-item-title">
+                    Оставьте отзыв, чтобы помочь другим 
+                  </span>
+                  <span class="articles-main-main-content-item-text">Стильная и независимая. Легко управляйте средствами на вашем счёте. Получайте информацию о ваших финансах, платежах и переводах при помощи сообщений.</span>
+                </div>  
+                <div class="articles-main-main-content-item">
+                  <img class="articles-main-main-content-item-picture" src="images/image 1.png" alt="terminal">
+                  <span class="articles-main-main-content-item-title">
+                    Где купить терминал для эквайринга
+                  </span>
+                  <span class="articles-main-main-content-item-text">Стильная и независимая. Легко управляйте средствами на вашем счёте. Получайте информацию о ваших финансах, платежах и переводах при помощи сообщений.</span>
+                </div> 
+                <div class="articles-main-main-content-item">
+                  <img class="articles-main-main-content-item-picture" src="images/image 2.png" alt="phone">
+                  <span class="articles-main-main-content-item-title">
+                    Как выбрать свой идеальный телефон
+                  </span>
+                  <span class="articles-main-main-content-item-text">Подключите автоплатёж и будьте уверены, что налог оплачен в срок. Вам не придётся тратить время на поиск суммы к уплате в личном кабинете налогоплательщика.</span>
+                </div> 
+              </div>
+            </div>
+            <div class="articles-main-main1">
+              <span class="articles-main-main1-title">Широкий ассортимент и высокое качество</span>
+              <span class="articles-main-main1-text">Каждый из нас понимает очевидную вещь: постоянное информационно-пропагандистское обеспечение нашей деятельности требует определения и уточнения дальнейших направлений развития. Как уже неоднократно упомянуто, базовые сценарии поведения пользователей, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Являясь всего лишь частью общей картины, непосредственные участники технического прогресса рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок.</span>
+              <span class="articles-main-main1-more">Читать далее</span>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subscribtion">
+      <span class="subscribtion-title">Подписка на новости</span>
+      <span class="subscribtion-email">Ваш e-mail</span>
+      <span class="subscribtion-button">Подписаться</span>
+    </div>
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-content-top">
+          <div class="footer-content-top-catalogue">
+            <span class="footer-content-top-title">Каталог</span>
+            <span>Телефоны</span>
+            <span>Техника</span>
+            <span>Одежда/обувь</span>
+            <span>Детские товары</span>
+            <span>Цветы</span>
+            <span>Еда/напитки</span>
+          </div>
+          <div class="footer-content-top-information">
+            <span class="footer-content-top-title">Информация</span>
+            <span>О магазине</span>
+            <span>Бренды</span>
+            <span>Доставка и оплата</span>
+            <span>Блог</span>
+            <span>Бонусная программа</span>
+            <span>Контакты</span>
+          </div>
+          <div class="footer-content-top-account">
+            <span class="footer-content-top-title">Личный кабинет</span>
+            <span>Вход</span>
+            <span>Регистрация</span>
+            <span>Забыли пароль?</span>
+          </div>
+          <div class="footer-content-top-social">
+            <span class="footer-content-top-title">Мы в социальных сетях</span>
+            <span>Вконтакте</span>
+            <span>Фейсбук</span>
+            <span>Твиттер</span>
+          </div>
+          <div class="footer-content-top-ad">
+            <span class="footer-content-top-ad-icon">🛍</span>
+            <span class="footer-content-top-ad-title">ПОДАРОЧНЫЙ СЕРТИФИКАТ</span>
+          </div>
+        </div>
+        <div class="footer-content-bottom">
+          <span class="footer-content-bottom-copyright">© 2020 AdvantShop</span>
+          <div class="footer-content-bottom-payment">
+            <img src="images/023-paypal.svg" alt="paypal">
+            <img id="darken" src="images/image (1).png" alt="yandex-wallet" />
+            <img src="images/card-mastercard.svg" alt="mastercard">
+            <img src="images/card-visa.svg" alt="visa">
+            <img src="images/card-mir.svg" alt="mir-pay  ">
+          </div>
+          <div class="footer-content-bottom-credits">
+            <span>Лицензионное соглашение</span>
+            <span>Политика конфиденциальности</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> 
