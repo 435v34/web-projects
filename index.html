@@ -252,20 +252,6 @@
                 <div class="swiper-pagination-my"></div>
               </div>
               <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-              <script>
-                var swiper = new Swiper(".mySwiper", {
-                  spaceBetween: 30,
-                  centeredSlides: true,
-                  autoplay: {
-                    delay: 4500,
-                    disableOnInteraction: false,
-                  },
-                  pagination: {
-                    el: ".swiper-pagination-my",
-                    clickable: true,
-                  },
-                });
-              </script>
               <div class="qualities">
                 <div class="qualities-item">
                   <img src="images/%.svg" alt="qualities-icon" />
@@ -650,4 +636,18 @@
       </div>
     </div>
   </body>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 4500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination-my",
+        clickable: true,
+      },
+    });
+  </script>
 </html> 
